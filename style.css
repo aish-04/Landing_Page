@@ -1,0 +1,103 @@
+/* body {
+    font-family: 'Pangolin', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('img/training-gf9a65dd4f_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.left {
+    position: absolute;
+     left: 34px;
+     top: 20px;
+    display: inline-block;
+    /* border: 2px solid darkgoldenrod; */
+}
+
+.mid {
+    display: block;
+    margin: 25px auto;
+    width: 36%;
+    /* border: 2px solid darkviolet; */
+}
+
+.right {
+     position: absolute;
+     right: 34px;
+     top: 30px;
+    display: inline-block;
+    /* border: 2px solid darkred; */
+}
+.navbar{
+    display: inline-block;
+
+}
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+.navbar li a{
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 34px 12px;       
+}
+.navbar li a.active, .navbar li a:hover{
+    text-decoration: underline;
+    color: grey;
+} 
+.left img{
+    width: 80px;
+    text-align: center;
+}
+.left div{
+    text-align: center;
+}
+.btn{
+    font-family: 'Pangolin', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    padding: 4px 14px;
+    border: 2px solid lightslategray;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.btn:hover{
+    background-color: rgb(95, 92, 92);
+}
+.container{
+    display: block;
+    margin: 51px auto;
+    /* border: 2px solid darkgreen; */
+    /* margin: 51px 33px; */
+    padding: 11px 10px;
+    width: 33%;
+    border-radius: 2px;
+}
+.formgroup input{
+    font-family: 'Pangolin', cursive;
+    text-align: center;
+display: block;
+width: 274px;
+padding: 6px;
+border: 2px solid black;
+border-radius: 17px;
+font-size: 15px;
+margin: 8px auto;
+}
+.container button{
+    display: block;
+    width: 23%;
+    margin: 18px auto;
+
+}
+.container h1{
+    text-align: center;
+}
+.left p{
+    text-align: center;
+    line-height: 0px;
+}
